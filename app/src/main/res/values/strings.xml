@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Simple Paint</string>
     <string name="limpar">Limpar</string>
+    <string name="corverde">Cor Verde</string>
 </resources>
