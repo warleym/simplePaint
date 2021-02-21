@@ -22,9 +22,20 @@ public class MainActivity extends AppCompatActivity {
         viewCanvas.limparCanvas();
     }
 
+    public void DesenhoLivre(View view) {
+        viewCanvas.limparCanvas();
+    }
+
     public void corverde(View view) {
         viewCanvas.limparCanvas();
         viewCanvas.inicializaObjetosVerde();
+
+    }
+
+    //adicionando vermelho
+    public void corvermelho(View view) {
+        viewCanvas.limparCanvas();
+        viewCanvas.inicializaObjetosVermelho();
 
     }
 }

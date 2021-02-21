@@ -10,7 +10,7 @@
     <br.com.progiv.simplepaint.ViewCanvas
         android:id="@+id/area_desenho"
         android:layout_width="match_parent"
-        android:layout_height="378dp" />
+        android:layout_height="296dp" />
 
 
     <Button
@@ -20,8 +20,27 @@
         android:text="@string/limpar" />
 
     <Button
+        android:id="@+id/DesenhoLivre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DesenhoLivre"
+        android:onClick="DesenhoLivre"
+        android:text="@string/DesenhoLivre" />
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="corverde"
         android:text="@string/corverde" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="corvermelho"
+        android:text="@string/corvermelho" />
+
+
+
+
 </LinearLayout>

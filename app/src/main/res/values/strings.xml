@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Simple Paint</string>
     <string name="limpar">Limpar</string>
+    <string name="DesenhoLivre">Desenho Livre</string>
     <string name="corverde">Cor Verde</string>
+    <string name="corvermelho">Cor Vermelho</string>
 </resources>
